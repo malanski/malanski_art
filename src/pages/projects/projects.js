@@ -1,13 +1,15 @@
-import './home.scss'
+import './projects.scss'
 import muchaGiff from '../../assets/muchaGiff.gif';
 import muchaGif0 from '../../assets/muchaGif0.gif';
 import mucha0 from '../../assets/mucha0.png';
 import mucha1 from '../../assets/mucha1.png';
 
-export const Home = () => {
+export const Projects = () => {
     return (
-        <div className="illustrations">
+
+        <div className="projects">
             <h1>Ulisses Malanski's Portfolio</h1>
+
             <img
                 src={mucha1}
                 title="Most of this illustration is made from vectors, shadows and background texture colors are made from raster images"
@@ -30,7 +32,6 @@ export const Home = () => {
                     alt='Illustration'
                     oncontextMenu="return false">
                 </img>
-                
                 <div className='process-description'>
                     <p>Vector Shapes and Lines</p>
                     <ul>

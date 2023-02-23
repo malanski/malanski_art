@@ -1,0 +1,43 @@
+.projects {
+
+
+    .making-off {
+
+        display: flex;
+        align-items: center;
+        text-align: left;
+
+        .animation-gif {
+            width: 340px;
+            position: relative;
+        }
+        .animation-gif-over {
+            width: 340px;
+            position: absolute;
+            opacity: 0.5;
+        }
+
+        .process-description {
+            padding: 20px;
+            border: 1px solid white;
+            border-radius: 20px;
+        }
+    }
+    
+    img {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 680px) {
+    .projects {
+        h1{
+            font-size: 25px;
+          }
+          .making-off {
+            .process-description {
+                border: 0;
+            }
+          }
+    }
+  }

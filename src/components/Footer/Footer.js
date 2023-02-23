@@ -6,18 +6,19 @@ export function Footer() {
     return (
         <footer>
              <div className='social-links'>
-                <a target="_blank" rel="noreferrer"
-                    title='Linkedin'
-                    href="https://www.linkedin.com/in/ulisses-malanski/">
-                    <FontAwesomeIcon className='iconeLink' icon={faLinkedin} /><br/>
-                    <p className='social-link-name' >Linedin</p>
-                </a>
-
+                <hr></hr>
                 <a target="_blank" rel="noreferrer"
                     title='Github'
                     href="https://github.com/malanski">
                     <FontAwesomeIcon className='iconeLink' icon={faBehance} /><br/>
                     <p className='social-link-name' >Behance</p>
+                </a>
+
+                <a target="_blank" rel="noreferrer"
+                    title='Linkedin'
+                    href="https://www.linkedin.com/in/ulisses-malanski/">
+                    <FontAwesomeIcon className='iconeLink' icon={faLinkedin} /><br/>
+                    <p className='social-link-name' >Linedin</p>
                 </a>
 
                 <a target="_blank" rel="noreferrer"

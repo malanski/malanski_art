@@ -5,7 +5,10 @@ import './App.css';
 // COMPONENTS
 import { Footer } from './components/Footer';
 import { Header } from './components/Header/Header';
+
+// PAGES
 import { Home } from './pages/home';
+import { Projects } from './pages/projects/projects';
 
 function App() {
   return (
@@ -15,11 +18,13 @@ function App() {
         <main>
           <Routes>
             <Route path ='/' element={<Home />} />
+            <Route path ='/projects' element={<Projects />} />
 
           </Routes>
         </main>
-        <Footer></Footer>
         <Header></Header>
+
+        <Footer></Footer>
       </HashRouter>
     </div>
   );

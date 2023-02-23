@@ -11,6 +11,48 @@ footer {
             font-size: 23px;
         }
     }
-    
-    
+}
+
+@media (max-width: 530px) {
+    footer {
+        
+        .social-links {
+            a {
+                font-size: 20px;
+            }
+            .social-media {
+                border: none;
+                
+                .iconeLink {
+                    border-radius: 50%;
+                }
+                .social-link-name {
+                    font-size: 12px;
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    footer {
+        
+        .social-links {
+            a {
+                font-size: 15px;
+            }
+            .social-media {
+                border: none;
+                
+                .iconeLink {
+                    border-radius: 50%;
+                }
+                .social-link-name {
+                    font-size: 12px;
+                    margin-top: 0;
+                }
+            }
+        }
+    }
 }
