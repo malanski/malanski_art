@@ -1,0 +1,43 @@
+nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    a {
+        color: white;
+        text-decoration: none;
+        width: 20%;
+        border: 2px solid white;
+        border-radius: 20px;
+        padding: 5px 10px;
+        font-size: 23px;
+    }
+      
+    .nav-links { 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .active {
+        font-weight: bolder;
+        font-size: 22px;
+        transition: all ease-in-out 0.8s;
+        border-bottom: 15px solid white;
+        border-top: 15px solid white;
+        margin: -20px 0 -20px 0;
+
+        .icons {
+            color:rgb(73, 73, 73);
+            font-size: 17px;
+            animation: nav-spin infinite 6.2s linear;
+        }
+        .iconsR {
+            color:rgb(73, 73, 73);
+            font-size: 17px;
+            animation: nav-spinR infinite 6s linear;
+        }
+
+        
+    }
+}
