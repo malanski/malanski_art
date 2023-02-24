@@ -1,6 +1,6 @@
 import { Routes, Route, HashRouter } from 'react-router-dom';
 
-import './App.css';
+import './App.scss';
 
 // COMPONENTS
 import { Footer } from './components/Footer';

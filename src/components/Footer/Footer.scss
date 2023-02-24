@@ -1,12 +1,13 @@
 footer {
-    background-color: black;
+    background-color: rgb(23, 23, 23);
+    margin: 20px 0;
     .social-links {
         display: flex;
 
         a {
             color: white;
             text-decoration: none;
-            width: 25%;
+            width: 33%;
             border: 2px solid white;
             font-size: 23px;
         }

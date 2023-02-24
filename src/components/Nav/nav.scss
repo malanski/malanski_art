@@ -1,13 +1,14 @@
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 66px;
 
     a {
+        margin: 0 auto;
         color: white;
         text-decoration: none;
-        max-width: 33%;
+        width: 33%;
         border: 2px solid white;
         border-radius: 20px;
         padding: 5px 10px;
@@ -30,7 +31,7 @@ nav {
         font-weight: bolder;
         text-transform: uppercase;
         min-width: 175px;
-
+        background-color: black;
         font-size: 25px;
         transition: all ease-in-out 0.8s;
         // margin: -20px 0 -20px 0;

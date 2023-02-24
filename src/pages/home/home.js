@@ -15,48 +15,96 @@ export const Home = () => {
                 oncontextMenu="return false">
             </img>
 
-            <div className='making-off'>
-                <img
-                    className='animation-gif'
-                    src={muchaGiff}
-                    title=""
-                    alt='Illustration'
-                    oncontextMenu="return false">
-                </img>
-                <img
-                    className='animation-gif-over'
-                    src={muchaGif0}
-                    title=""
-                    alt='Illustration'
-                    oncontextMenu="return false">
-                </img>
-                
-                <div className='process-description'>
-                    <p>Vector Shapes and Lines</p>
-                    <ul>
-                        <li>High complexity shapes.</li>
-                        <li>Over than 30 layers.</li>
-                        <li>Dynamic lines.</li>
+            <div className='grid-container'>
 
-                    </ul>
-                    <hr></hr>
-                    <p>Raster (Bitmap) Painting</p>
-                    <ul>
-                        <li>High resolution.</li>
-                        <li>Refined coloring technics.</li>
-                        <li>Photo realism.</li>
+                <div className='making-off'>
+                    <img
+                        className='animation-gif'
+                        src={muchaGiff}
+                        title=""
+                        alt='Illustration'
+                        oncontextMenu="return false">
+                    </img>
+                    <img
+                        className='animation-gif-over'
+                        src={muchaGif0}
+                        title=""
+                        alt='Illustration'
+                        oncontextMenu="return false">
+                    </img>
 
-                    </ul>
+                    <div className='process-description'>
+                        <p>Vector Shapes and Lines</p>
+                        <ul>
+                            <li>High complexity shapes.</li>
+                            <li>Over than 30 layers.</li>
+                            <li>Dynamic lines.</li>
+
+                        </ul>
+                    </div>
+
                 </div>
- 
+
+                <div className='making-off'>
+                    <img
+                        className='animation-gif'
+                        src={muchaGiff}
+                        title=""
+                        alt='Illustration'
+                        oncontextMenu="return false">
+                    </img>
+                    <img
+                        className='animation-gif-over'
+                        src={muchaGif0}
+                        title=""
+                        alt='Illustration'
+                        oncontextMenu="return false">
+                    </img>
+
+                    <div className='process-description'>
+                        <p>Raster (Bitmap) Painting</p>
+                        <ul>
+                            <li>High resolution.</li>
+                            <li>Refined coloring technics.</li>
+                            <li>Photo realism.</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div className='making-off'>
+                    <img
+                        className='animation-gif'
+                        src={muchaGiff}
+                        title=""
+                        alt='Illustration'
+                        oncontextMenu="return false">
+                    </img>
+                    <img
+                        className='animation-gif-over'
+                        src={muchaGif0}
+                        title=""
+                        alt='Illustration'
+                        oncontextMenu="return false">
+                    </img>
+
+                    <div className='process-description'>
+
+                        <p>Raster (Bitmap) Painting</p>
+                        <ul>
+                            <li>High resolution.</li>
+                            <li>Refined coloring technics.</li>
+                            <li>Photo realism.</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
             </div>
-            
-            <img 
-                src={mucha0}
-                title="Most of this illustration is made from vectors, only the shadows and the background landscape colors are made from high resolution raster images"
-                alt='Illustration'
-                >
-            </img>
+
+
         </div>
     )
 }
