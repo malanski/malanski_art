@@ -1,6 +1,9 @@
 import './home.scss'
 import muchaGiff from '../../assets/muchaGiff.gif';
 import muchaGif0 from '../../assets/muchaGif0.gif';
+import muchaGif1 from '../../assets/muchaGif1.gif';
+import muchaGif2 from '../../assets/muchaGif2.gif';
+import muchaGifBlinc from '../../assets/muchaGifBlinc.gif';
 import mucha0 from '../../assets/mucha0.png';
 import mucha1 from '../../assets/mucha1.png';
 
@@ -48,14 +51,14 @@ export const Home = () => {
                 <div className='making-off'>
                     <img
                         className='animation-gif'
-                        src={muchaGiff}
+                        src={muchaGif1}
                         title=""
                         alt='Illustration'
                         oncontextMenu="return false">
                     </img>
                     <img
                         className='animation-gif-over'
-                        src={muchaGif0}
+                        src={muchaGif1}
                         title=""
                         alt='Illustration'
                         oncontextMenu="return false">
@@ -76,14 +79,14 @@ export const Home = () => {
                 <div className='making-off'>
                     <img
                         className='animation-gif'
-                        src={muchaGiff}
+                        src={muchaGif2}
                         title=""
                         alt='Illustration'
                         oncontextMenu="return false">
                     </img>
                     <img
                         className='animation-gif-over'
-                        src={muchaGif0}
+                        src={muchaGifBlinc}
                         title=""
                         alt='Illustration'
                         oncontextMenu="return false">
