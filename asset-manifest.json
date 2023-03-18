@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/malanski_art/static/css/main.34b5457c.css",
-    "main.js": "/malanski_art/static/js/main.d1ddeed6.js",
+    "main.css": "/malanski_art/static/css/main.ae14f2e2.css",
+    "main.js": "/malanski_art/static/js/main.ef3475da.js",
     "static/js/787.5d800b9d.chunk.js": "/malanski_art/static/js/787.5d800b9d.chunk.js",
+    "static/media/painting1.png": "/malanski_art/static/media/painting1.b6f484e9e85a53e08512.png",
+    "static/media/painting3.png": "/malanski_art/static/media/painting3.2408b676cafd90c7d69c.png",
+    "static/media/painting0.png": "/malanski_art/static/media/painting0.90d16f1d71606a965f95.png",
+    "static/media/painting2.png": "/malanski_art/static/media/painting2.c6a482df61df20f65854.png",
     "static/media/muchaGifBlinc.gif": "/malanski_art/static/media/muchaGifBlinc.d928cca748d4e6f3ae0b.gif",
     "static/media/mucha1.png": "/malanski_art/static/media/mucha1.a87cefb48bafea128d86.png",
     "static/media/mucha0.png": "/malanski_art/static/media/mucha0.412d033929fc5ec7ae61.png",
@@ -17,12 +21,12 @@
     "static/media/tattoo3.jpg": "/malanski_art/static/media/tattoo3.7a6bea7d6480c06d5612.jpg",
     "static/media/muchaGif0.gif": "/malanski_art/static/media/muchaGif0.5e34860d020840d9d069.gif",
     "index.html": "/malanski_art/index.html",
-    "main.34b5457c.css.map": "/malanski_art/static/css/main.34b5457c.css.map",
-    "main.d1ddeed6.js.map": "/malanski_art/static/js/main.d1ddeed6.js.map",
+    "main.ae14f2e2.css.map": "/malanski_art/static/css/main.ae14f2e2.css.map",
+    "main.ef3475da.js.map": "/malanski_art/static/js/main.ef3475da.js.map",
     "787.5d800b9d.chunk.js.map": "/malanski_art/static/js/787.5d800b9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34b5457c.css",
-    "static/js/main.d1ddeed6.js"
+    "static/css/main.ae14f2e2.css",
+    "static/js/main.ef3475da.js"
   ]
 }
