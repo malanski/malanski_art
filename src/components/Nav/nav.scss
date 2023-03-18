@@ -2,46 +2,45 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 66px;
-
+    height: auto;
+    border-bottom: 8px solid white;
+    .navigation{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 70vw;
+    }
     a {
         margin: 0 auto;
         color: white;
         text-decoration: none;
-        width: 33%;
-        border: 2px solid white;
-        border-radius: 20px;
+        width: 20%;
+        border: 0px solid white;
+        // border-radius: 20px;
         padding: 5px 10px;
-        font-size: 23px;
+        font-size: 19px;
     }
 
     .nav-links {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        text-align: center;
+
     }
 
-    .icons {
-        transition: all ease-in-out 0.8s;
-
-        font-size: 10px;
-    }
 
     .active {
         font-weight: bolder;
         text-transform: uppercase;
         min-width: 175px;
-        background-color: black;
-        font-size: 25px;
+        // background-color: rgb(166, 166, 166);
+        font-size: 22px;
         transition: all ease-in-out 0.8s;
         // margin: -20px 0 -20px 0;
-        border: 8px solid white;
+        border-bottom: 8px solid white;
 
-        .icons {
-            transition: all ease-in-out 0.8s;
-
-            font-size: 30px;
-        }
+  
 
     }
 }

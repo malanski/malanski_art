@@ -2,6 +2,7 @@ import './nav.scss'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp, faCircle, faPenAlt } from '@fortawesome/free-solid-svg-icons';
+import { faBehance, faInstagram, faDeviantart, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 import {
     Link,
@@ -22,27 +23,43 @@ function CustomLink({ children, to, ...props }) {
 export function Nav() {
     return (
         <nav>
-            <CustomLink title="Digital & Traditional paintings" to="/">
-                <span className="nav-links">
-                    Illustrations&ensp;
-                    <FontAwesomeIcon icon={faCircle} className="icons" />
-                </span>
-            </CustomLink>
+            <h1>
+                Ulisses Malanski <br></br>
+                <small>Illustrations Portfolio</small>
+            </h1>
 
-            <CustomLink title="Tattoo design and other projects" to="/projects">
-                <span className="nav-links">
-                    <FontAwesomeIcon icon={faCircle} className="icons" />
-                    &ensp;Projects&ensp;
-                    <FontAwesomeIcon icon={faCircle} className="icons" />
-                </span>
-            </CustomLink>
+            <div className='navigation'>
+                <CustomLink title="Digital & Traditional paintings" to="/">
+                    <span className="nav-links">
+                        Illustrations
+                    </span>
+                </CustomLink>
 
-            <CustomLink title="My skills" to="/skills">
-                <span className="nav-links">
-                    <FontAwesomeIcon icon={faCircle} className="icons" />
-                    &ensp;Skills
-                </span>
-            </CustomLink>
+                {/* <CustomLink title="Tattoo design and other projects" to="/projects">
+                    <span className="nav-links">
+                        Available
+                    </span>
+                </CustomLink> */}
+
+                {/* <CustomLink title="My skills" to="/shop">
+                    <span className="nav-links">
+                        Shop
+                    </span>
+                </CustomLink> */}
+
+                <CustomLink title="lets talk" to="/contact">
+                    <span className="nav-links">
+                       Contact
+                    </span>
+                </CustomLink>
+
+                <a title="instagram" target="_blank" href="https://www.instagram.com/ulissesmalanski_art/">
+                    <span className="nav-links">
+                    <FontAwesomeIcon className='iconeLink' icon={faInstagram} /><br/>
+                    </span>
+                </a>
+
+            </div>
         </nav>
     )
 }

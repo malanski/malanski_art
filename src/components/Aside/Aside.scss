@@ -1,0 +1,16 @@
+aside {
+    background-color: rgb(28, 28, 28);
+    max-width:29vw;
+    min-width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+    border-radius: 0px 10px 100px 0px ;
+    a {
+        text-decoration: none;
+        color: wheat;
+        text-transform: uppercase;
+    }
+}

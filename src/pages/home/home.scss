@@ -1,191 +1,35 @@
 .illustrations {
-    margin: 20px 0;
 
     .grid-container {
         display: flex;
         justify-content: center;
-    }
-    .making-off {
-        width: 33%;
-        display: flex;
-        flex-direction: column;
         align-items: center;
-        text-align: left;
-        background-color: rgb(23, 23, 23);
-        color: white;
-
-        .animation-gif {
-            width: 340px;
-            position: relative;
-        }
-        .animation-gif-over {
-            width: 340px;
-            position: absolute;
-            opacity: 0.5;
-        }
-        .process-description {
-            margin-top: 10px;
-            margin-bottom: 10px;
-            padding: 5px 20px;
-            border: 1px solid white;
-            border-radius: 20px;
-        }
-    }
-    
-    img {
+        flex-flow: wrap;
+        gap: 1px;
         width: 100vw;
+
+        .image-card{
+            display: flex;
+           
+            // height: 290px;
+            // border: 1px solid black;
+            // border-radius: 5px;
+            // padding: 5px;
+            img{
+                // width: 100%;
+                width: 30vw;
+
+                margin: 0 auto;
+            }
+        }
     }
+   
+
 }
 
 @media (max-width: 1080px) {
     .illustrations {
 
-          .making-off {
-            .animation-gif {
-                width: 320px;
-            }
-            .animation-gif-over {
-                width: 320px;
-            }
-            .process-description {
-            }
-          }
+
     }
 }
-
-@media (max-width: 965px) {
-    .illustrations {
-
-          .making-off {
-            .animation-gif {
-                width: 300px;
-            }
-            .animation-gif-over {
-                width: 300px;
-            }
-            .process-description {
-            }
-          }
-    }
-}
-
-@media (max-width: 965px) {
-    .illustrations {
-
-          .making-off {
-            .animation-gif {
-                width: 250px;
-            }
-            .animation-gif-over {
-                width: 250px;
-            }
-            .process-description {
-            }
-          }
-    }
-}
-
-@media (max-width: 755px) {
-    .illustrations {
-
-          .making-off {
-            .animation-gif {
-                width: 220px;
-            }
-            .animation-gif-over {
-                width: 220px;
-            }
-            .process-description {
-                border: 0;
-            }
-          }
-    }
-}
-
-@media (max-width: 665px) {
-    .illustrations {
-
-          .making-off {
-            .animation-gif {
-                width: 200px;
-            }
-            .animation-gif-over {
-                width: 200px;
-            }
-            .process-description {
-                border: 0;
-            }
-          }
-    }
-}
-
-@media (max-width: 601px) {
-    .illustrations {
-
-          .making-off {
-            .animation-gif {
-                width: 180px;
-            }
-            .animation-gif-over {
-                width: 180px;
-            }
-            .process-description {
-                border: 0;
-            }
-          }
-    }
-}
-
-@media (max-width: 545px) {
-    .illustrations {
-
-          .making-off {
-            .animation-gif {
-                width: 140px;
-            }
-            .animation-gif-over {
-                width: 140px;
-            }
-            .process-description {
-                border: 0;
-            }
-          }
-    }
-}
-
-@media (max-width: 480px) {
-    .illustrations {
-
-          .making-off {
-            .animation-gif {
-                width: 120px;
-            }
-            .animation-gif-over {
-                width: 120px;
-            }
-            .process-description {
-                border: 0;
-                padding: 2px 10px;
-                ul {
-                    padding: 5px;
-                    font-size: 13px;
-                }
-
-            }
-          }
-    }
-}
-@media (max-width: 389px) {
-    .illustrations {
-          .making-off {
-            .animation-gif {
-                width: 105px;
-            }
-            .animation-gif-over {
-                width: 105px;
-            }
-
-          }
-    }
-}
-
