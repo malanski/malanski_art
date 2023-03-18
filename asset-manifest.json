@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/malanski_art/static/css/main.ae14f2e2.css",
-    "main.js": "/malanski_art/static/js/main.ef3475da.js",
+    "main.js": "/malanski_art/static/js/main.d8719575.js",
     "static/js/787.5d800b9d.chunk.js": "/malanski_art/static/js/787.5d800b9d.chunk.js",
+    "static/media/portrait1.png": "/malanski_art/static/media/portrait1.918974ff4d7425592eba.png",
+    "static/media/portrait0.png": "/malanski_art/static/media/portrait0.fffefba3fc2e5c3d09dd.png",
+    "static/media/portrait3.png": "/malanski_art/static/media/portrait3.2ba6f93240abb8924a29.png",
     "static/media/painting1.png": "/malanski_art/static/media/painting1.b6f484e9e85a53e08512.png",
     "static/media/painting3.png": "/malanski_art/static/media/painting3.2408b676cafd90c7d69c.png",
     "static/media/painting0.png": "/malanski_art/static/media/painting0.90d16f1d71606a965f95.png",
-    "static/media/painting2.png": "/malanski_art/static/media/painting2.c6a482df61df20f65854.png",
     "static/media/muchaGifBlinc.gif": "/malanski_art/static/media/muchaGifBlinc.d928cca748d4e6f3ae0b.gif",
     "static/media/mucha1.png": "/malanski_art/static/media/mucha1.a87cefb48bafea128d86.png",
     "static/media/mucha0.png": "/malanski_art/static/media/mucha0.412d033929fc5ec7ae61.png",
@@ -22,11 +24,11 @@
     "static/media/muchaGif0.gif": "/malanski_art/static/media/muchaGif0.5e34860d020840d9d069.gif",
     "index.html": "/malanski_art/index.html",
     "main.ae14f2e2.css.map": "/malanski_art/static/css/main.ae14f2e2.css.map",
-    "main.ef3475da.js.map": "/malanski_art/static/js/main.ef3475da.js.map",
+    "main.d8719575.js.map": "/malanski_art/static/js/main.d8719575.js.map",
     "787.5d800b9d.chunk.js.map": "/malanski_art/static/js/787.5d800b9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae14f2e2.css",
-    "static/js/main.ef3475da.js"
+    "static/js/main.d8719575.js"
   ]
 }
