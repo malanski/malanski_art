@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/malanski_art/static/css/main.26bfe5fe.css",
-    "main.js": "/malanski_art/static/js/main.7ae09b07.js",
+    "main.css": "/malanski_art/static/css/main.be4ecd18.css",
+    "main.js": "/malanski_art/static/js/main.a2f2f384.js",
     "static/js/787.5d800b9d.chunk.js": "/malanski_art/static/js/787.5d800b9d.chunk.js",
     "static/media/muchaGifBlinc.gif": "/malanski_art/static/media/muchaGifBlinc.d928cca748d4e6f3ae0b.gif",
     "static/media/muchaGif1.gif": "/malanski_art/static/media/muchaGif1.291170edf375eb417efb.gif",
@@ -21,20 +21,18 @@
     "static/media/muchaGif2.gif": "/malanski_art/static/media/muchaGif2.3218c01702d9a0d35340.gif",
     "static/media/bigmucha2.png": "/malanski_art/static/media/bigmucha2.bfa0fafbbd03aa810061.png",
     "static/media/bigmucha1.png": "/malanski_art/static/media/bigmucha1.79ae1eb56fc6499a04c6.png",
-    "static/media/tattoo0.jpg": "/malanski_art/static/media/tattoo0.e6253deda99b959dfbe6.jpg",
     "static/media/mucha1.png": "/malanski_art/static/media/mucha1.4b8640208164f4206a8c.png",
     "static/media/mucha2.png": "/malanski_art/static/media/mucha2.cbaab08edcf7a463235c.png",
     "static/media/mucha0.png": "/malanski_art/static/media/mucha0.1e86c3b1adf100645987.png",
-    "static/media/tattoo1.jpg": "/malanski_art/static/media/tattoo1.e3c3b76a0bc673e3f29a.jpg",
-    "static/media/tattoo2.jpg": "/malanski_art/static/media/tattoo2.01bd1f21af6b8a1947ae.jpg",
     "static/media/muchaGif0.gif": "/malanski_art/static/media/muchaGif0.5e34860d020840d9d069.gif",
+    "static/media/muchaGiff.gif": "/malanski_art/static/media/muchaGiff.8854ffc62bf33b9139b5.gif",
     "index.html": "/malanski_art/index.html",
-    "main.26bfe5fe.css.map": "/malanski_art/static/css/main.26bfe5fe.css.map",
-    "main.7ae09b07.js.map": "/malanski_art/static/js/main.7ae09b07.js.map",
+    "main.be4ecd18.css.map": "/malanski_art/static/css/main.be4ecd18.css.map",
+    "main.a2f2f384.js.map": "/malanski_art/static/js/main.a2f2f384.js.map",
     "787.5d800b9d.chunk.js.map": "/malanski_art/static/js/787.5d800b9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.26bfe5fe.css",
-    "static/js/main.7ae09b07.js"
+    "static/css/main.be4ecd18.css",
+    "static/js/main.a2f2f384.js"
   ]
 }
