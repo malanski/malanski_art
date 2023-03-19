@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/malanski_art/static/css/main.be4ecd18.css",
-    "main.js": "/malanski_art/static/js/main.a2f2f384.js",
+    "main.js": "/malanski_art/static/js/main.53fb42e3.js",
     "static/js/787.5d800b9d.chunk.js": "/malanski_art/static/js/787.5d800b9d.chunk.js",
     "static/media/muchaGifBlinc.gif": "/malanski_art/static/media/muchaGifBlinc.d928cca748d4e6f3ae0b.gif",
     "static/media/muchaGif1.gif": "/malanski_art/static/media/muchaGif1.291170edf375eb417efb.gif",
@@ -28,11 +28,11 @@
     "static/media/muchaGiff.gif": "/malanski_art/static/media/muchaGiff.8854ffc62bf33b9139b5.gif",
     "index.html": "/malanski_art/index.html",
     "main.be4ecd18.css.map": "/malanski_art/static/css/main.be4ecd18.css.map",
-    "main.a2f2f384.js.map": "/malanski_art/static/js/main.a2f2f384.js.map",
+    "main.53fb42e3.js.map": "/malanski_art/static/js/main.53fb42e3.js.map",
     "787.5d800b9d.chunk.js.map": "/malanski_art/static/js/787.5d800b9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be4ecd18.css",
-    "static/js/main.a2f2f384.js"
+    "static/js/main.53fb42e3.js"
   ]
 }
