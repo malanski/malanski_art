@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/malanski_art/static/css/main.be4ecd18.css",
-    "main.js": "/malanski_art/static/js/main.e2229774.js",
+    "main.css": "/malanski_art/static/css/main.0c26fda8.css",
+    "main.js": "/malanski_art/static/js/main.abe03b6d.js",
     "static/js/787.5d800b9d.chunk.js": "/malanski_art/static/js/787.5d800b9d.chunk.js",
     "static/media/muchaGifBlinc.gif": "/malanski_art/static/media/muchaGifBlinc.d928cca748d4e6f3ae0b.gif",
     "static/media/muchaGif1.gif": "/malanski_art/static/media/muchaGif1.291170edf375eb417efb.gif",
     "static/media/bigportrait1.png": "/malanski_art/static/media/bigportrait1.db94d178158f087fee09.png",
+    "static/media/fanart1.png": "/malanski_art/static/media/fanart1.b517d113c406eac6d8b6.png",
     "static/media/bigportrait0.png": "/malanski_art/static/media/bigportrait0.1b41512960daedaba5f3.png",
+    "static/media/fanart4.png": "/malanski_art/static/media/fanart4.d9d8bbb2bfd33b0b7000.png",
+    "static/media/fanart2.png": "/malanski_art/static/media/fanart2.b0b4fa8b406a8376718d.png",
     "static/media/portrait1.png": "/malanski_art/static/media/portrait1.e8e26deb7c151b2178b0.png",
     "static/media/portrait0.png": "/malanski_art/static/media/portrait0.45df1be1a07bb4ee1abf.png",
     "static/media/painting0.png": "/malanski_art/static/media/painting0.0f0069c6513cbd7124b4.png",
@@ -24,15 +27,18 @@
     "static/media/mucha1.png": "/malanski_art/static/media/mucha1.4b8640208164f4206a8c.png",
     "static/media/mucha2.png": "/malanski_art/static/media/mucha2.cbaab08edcf7a463235c.png",
     "static/media/mucha0.png": "/malanski_art/static/media/mucha0.1e86c3b1adf100645987.png",
+    "static/media/mucha4.png": "/malanski_art/static/media/mucha4.3caed752ca6a0c1d4e0e.png",
+    "static/media/tattoo2.jpg": "/malanski_art/static/media/tattoo2.01bd1f21af6b8a1947ae.jpg",
     "static/media/muchaGif0.gif": "/malanski_art/static/media/muchaGif0.5e34860d020840d9d069.gif",
+    "static/media/mucha3.png": "/malanski_art/static/media/mucha3.b2acc187ef3eb335632e.png",
     "static/media/muchaGiff.gif": "/malanski_art/static/media/muchaGiff.8854ffc62bf33b9139b5.gif",
     "index.html": "/malanski_art/index.html",
-    "main.be4ecd18.css.map": "/malanski_art/static/css/main.be4ecd18.css.map",
-    "main.e2229774.js.map": "/malanski_art/static/js/main.e2229774.js.map",
+    "main.0c26fda8.css.map": "/malanski_art/static/css/main.0c26fda8.css.map",
+    "main.abe03b6d.js.map": "/malanski_art/static/js/main.abe03b6d.js.map",
     "787.5d800b9d.chunk.js.map": "/malanski_art/static/js/787.5d800b9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be4ecd18.css",
-    "static/js/main.e2229774.js"
+    "static/css/main.0c26fda8.css",
+    "static/js/main.abe03b6d.js"
   ]
 }
