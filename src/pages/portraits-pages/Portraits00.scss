@@ -1,0 +1,37 @@
+.project-page {
+    // width: 100%;
+    // margin: 0 auto;
+
+    // background-color: rgb(195, 195, 195);
+    // background-image: url('../../assets/backgroundSite.png');
+    // background-position: fixed;
+    // background-repeat: no-repeat;
+    // background-size: 100%;
+    h2 {
+        font-size: 35px;
+        font-weight: bolder;
+    }
+    h3 {
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    .project-navigation {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 10px auto;
+    }
+    .making-off {
+        width: 90%;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-evenly;
+        text-align: left;
+        
+        li {
+            text-transform: none;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    }
+}

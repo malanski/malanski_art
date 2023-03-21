@@ -3,72 +3,67 @@ import './home.scss'
 import mucha0 from '../../assets/mucha0.png';
 import mucha1 from '../../assets/mucha1.png';
 import mucha2 from '../../assets/mucha2.png';
-import mucha3 from '../../assets/mucha3.png';
-import mucha4 from '../../assets/mucha4.png';
-import tattoo0 from '../../assets/tattoo0.jpg';
-import tattoo1 from '../../assets/tattoo1.jpg';
-import tattoo2 from '../../assets/tattoo2.jpg';
-import tattoo3 from '../../assets/tattoo3.jpg';
+
 import painting0 from '../../assets/painting0.png';
 import painting1 from '../../assets/painting1.png';
 import painting3 from '../../assets/painting3.png';
+
+
 import portrait0 from '../../assets/portrait0.png';
 import portrait1 from '../../assets/portrait1.png';
 import portrait3 from '../../assets/portrait3.png';
+import { Link } from 'react-router-dom';
+
 
 
 export const Home = () => {
+
     return (
-        <div className="illustrations">
-            
-           
-            <div className='grid-container'>
+        <div className="home">
 
-                <div className='image-card'>
-                    <img src={mucha1}alt="Ulisses Malanski Illustration"></img>
-                </div>
-                <div className='image-card'>
+            <div className='grid-container' >
+
+
+                <Link className='image-card' to="/mucha00">
+                    <img src={mucha1} alt="Ulisses Malanski Illustration"></img>
+                    <p className='cart-text'>Advertising</p>
+                </Link>
+
+                <Link className='image-card' to="/mucha01">
                     <img src={mucha0} alt="Ulisses Malanski Illustration"></img>
-                </div>
-                <div className='image-card'>
+                    <p className='cart-text'>Posters</p>
+                </Link>
+
+                <Link className='image-card' to="/mucha02">
                     <img src={mucha2} alt="Ulisses Malanski Illustration"></img>
-                </div>
+                    <p className='cart-text'>Branding</p>
+                </Link>
 
 
-                <div className='image-card'>
-                    <img src={mucha3} alt="Ulisses Malanski Illustration"></img>
-                </div>
-                <div className='image-card'>
-                    <img src={tattoo2} alt="Ulisses Malanski Illustration"></img>
-                </div>
-                <div className='image-card'>
-                    <img src={mucha4} alt="Ulisses Malanski Illustration"></img>
-                </div>
+                <Link className='image-card' to="/painting00">
+                    <img src={painting1} alt="Ulisses Malanski Illustration"></img>
+                </Link>
 
-
-                <div className='image-card'>
-                    <img src={painting1}alt="Ulisses Malanski Illustration"></img>
-                </div>
-                <div className='image-card'>
+                <Link className='image-card' to="/painting01">
                     <img src={painting0} alt="Ulisses Malanski Illustration"></img>
-                </div>
-                <div className='image-card'>
+                </Link>
+
+                <Link className='image-card' to="/painting02">
                     <img src={painting3} alt="Ulisses Malanski Illustration"></img>
-                </div>
+                </Link>
 
 
-                <div className='image-card'>
-                    <img src={portrait1}alt="Ulisses Malanski Illustration"></img>
-                </div>
-                <div className='image-card'>
+                <Link className='image-card' to="/portrait00">
                     <img src={portrait0} alt="Ulisses Malanski Illustration"></img>
-                </div>
-                <div className='image-card'>
+                </Link>
+
+                <Link className='image-card' to="/portrait01">
+                    <img src={portrait1} alt="Ulisses Malanski Illustration"></img>
+                </Link>
+
+                <Link className='image-card' to="/portrait02">
                     <img src={portrait3} alt="Ulisses Malanski Illustration"></img>
-                </div>
-
-
-
+                </Link>
             </div>
 
             <div className='grid-container'>

@@ -15,4 +15,19 @@
       font-family: 'Courier New', Courier, monospace;
 
    }
+   h2 {
+      font-family: 'Righteous', cursive;
+
+   }
+}
+
+@media (max-width: 768px) {
+   .contact {
+      p {
+         width: 90vw;
+      }
+      ul {
+         width: 90vw;
+      }
+   }
 }

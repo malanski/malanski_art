@@ -1,24 +1,40 @@
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    height: auto;
+    justify-content: center;
+    height: 58px;
     border-bottom: 8px solid white;
+
+    h1 {
+        // font-family: 'Amatic SC';
+        font-family: 'Righteous', cursive;
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 25px;
+        margin-left: 20px;
+        width: 33vw;
+        .title-art {
+            font-family: 'Amatic SC';
+            font-size: 28px;
+            margin: auto;
+        }
+
+      }
     .navigation{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 70vw;
+        width: 33vw;
     }
     a {
-        margin: 0 auto;
+        margin: 0;
         color: white;
         text-decoration: none;
-        width: 20%;
-        border: 0px solid white;
         // border-radius: 20px;
+        font-size: 21px;
         padding: 5px 10px;
-        font-size: 19px;
+        width: 100%;
+
     }
 
     .nav-links {
@@ -26,16 +42,17 @@ nav {
         justify-content: space-between;
         align-items: center;
         text-align: center;
+        border: 8px solid rgb(195, 195, 195) 
 
     }
 
 
     .active {
-        font-weight: bolder;
-        text-transform: uppercase;
-        min-width: 175px;
+        // font-weight: bolder;
+        // text-transform: uppercase;
+        // min-width: 175px;
         // background-color: rgb(166, 166, 166);
-        font-size: 22px;
+        // font-size: 22px;
         transition: all ease-in-out 0.8s;
         // margin: -20px 0 -20px 0;
         border-bottom: 8px solid white;
@@ -43,10 +60,38 @@ nav {
   
 
     }
+    
 }
 
-@media (max-width: 680px) {
+@media (max-width: 839px) {
     nav {
+        height: auto;
+        // flex-direction: column;
+        width: 100vw;
+        flex-wrap: wrap;
+        h1 {
+            margin: 10px;
+            width: 50vw;
+            text-align: center;
+        }
+        .navigation {
+            width: 50vw;
+        }
+
+    }
+}
+
+@media (max-width: 546px) {
+    nav {
+        h1 {
+           font-size: 20px;
+           width: 100vw;
+
+        }
+        .navigation {
+            // background-color: rgb(114, 114, 114);
+            width: 50vw;
+        }
         a {
             .nav-links {
                 font-size: 17px;
@@ -57,49 +102,19 @@ nav {
 
 @media (max-width: 460px) {
     nav {
+        h1 {
+           font-size: 19px;
+            margin: 5px;
+            .title-art {
+                font-size: 21px;
+            }
+ 
+         }
         a {
             .nav-links {
-                font-size: 15px;
+                font-size: 16px;
+                font-weight: 900;
             }
-        }
-    }
-}
-
-@media (max-width: 440px) {
-    nav {
-        a {
-            border: none;
-            .nav-links {
-                font-size: 13px;
-            }
-        }
-        .icons {
-            font-size: 8px;
-        }
-        .active {
-            border: 2px solid white;
-            
-        }
-    }
-}
-
-@media (max-width: 390px) {
-    nav {
-        a {
-            padding: 5px  ;
-            border: none;
-            .nav-links {
-                font-size: 13px;
-                text-align: center;
-
-            }
-        }
-        .icons {
-            display: none;
-        }
-        .active {
-            border: 2px solid white;
-            
         }
     }
 }

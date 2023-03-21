@@ -1,5 +1,5 @@
-.illustrations {
-
+.home {
+   
     .grid-container {
         display: flex;
         justify-content: center;
@@ -10,26 +10,48 @@
 
         .image-card{
             display: flex;
-           
-            // height: 290px;
-            // border: 1px solid black;
-            // border-radius: 5px;
-            // padding: 5px;
-            img{
-                // width: 100%;
-                width: 30vw;
 
+            img{
+                width: 33vw;
                 margin: 0 auto;
+            }
+            .cart-text{
+                display: none;
+                text-transform: uppercase;
+                color: aqua;
+                font-size: 28px;
+                // text-align: center;
+                margin-left: 20px;
+            }
+           
+        }
+        .image-card:hover {
+            border: 1px solid red;
+            .cart-text{
+                display: block;
+                position: absolute;
+                font-family: 'Righteous', cursive;
+
             }
         }
     }
-   
+
 
 }
 
-@media (max-width: 1080px) {
-    .illustrations {
-
+@media (max-width: 500px) {
+    .home {
+        .grid-container {
+            // flex-wrap: nowrap;
+            .image-card{
+                img {
+                    width: 45vw;
+                }
+                .cart-text{
+                    font-size: 15px;
+                }
+            }
+        }
 
     }
 }

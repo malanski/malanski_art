@@ -9,22 +9,22 @@ export function Footer() {
                 <hr></hr>
                 <br></br>
                 <a target="_blank" rel="noreferrer"
-                    title='Github'
-                    href="https://github.com/malanski">
+                    title='Behance profile'
+                    href="https://www.behance.net/malanski">
                     <FontAwesomeIcon className='iconeLink' icon={faBehance} /><br/>
                     <p className='social-link-name' >Behance</p>
                 </a>
 
                 <a target="_blank" rel="noreferrer"
-                    title='Github'
+                    title='Instagram'
                     href="https://www.instagram.com/ulissesmalanski_art/">
                     <FontAwesomeIcon className='iconeLink' icon={faInstagram} /><br/>
                     <p className='social-link-name' >Instagram</p>
                 </a>
 
                 <a target="_blank" rel="noreferrer"
-                    title='Behance'
-                    href="https://www.behance.net/malanski">
+                    title='Deviant Art'
+                    href="https://www.deviantart.com/ulissesmalanski">
                     <FontAwesomeIcon className='iconeLink' icon={faDeviantart} /><br/>
                     <p className='social-link-name' >Deviant Art</p>
                 </a>

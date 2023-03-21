@@ -24,8 +24,8 @@ export function Nav() {
     return (
         <nav>
             <h1>
-                Ulisses Malanski <br></br>
-                <small>Illustrations Portfolio</small>
+                <b>Ulisses Malanski</b> <small className='title-art'>Art</small><br></br>
+                
             </h1>
 
             <div className='navigation'>
@@ -35,17 +35,20 @@ export function Nav() {
                     </span>
                 </CustomLink>
 
-                {/* <CustomLink title="Tattoo design and other projects" to="/projects">
+                <CustomLink title="Tattoo design and other projects" to="/more">
                     <span className="nav-links">
-                        Available
+                        More
                     </span>
-                </CustomLink> */}
+                </CustomLink>
 
-                {/* <CustomLink title="My skills" to="/shop">
+            </div>
+
+            <div className='navigation'>
+                <CustomLink title="My skills" to="/shop">
                     <span className="nav-links">
                         Shop
                     </span>
-                </CustomLink> */}
+                </CustomLink>
 
                 <CustomLink title="lets talk" to="/contact">
                     <span className="nav-links">
@@ -53,11 +56,14 @@ export function Nav() {
                     </span>
                 </CustomLink>
 
-                <a title="instagram" target="_blank" href="https://www.instagram.com/ulissesmalanski_art/">
-                    <span className="nav-links">
+                {/* <a 
+                    title="instagram"
+                    target="_blank"
+                    href="https://www.instagram.com/ulissesmalanski_art/">
+                    <span>
                     <FontAwesomeIcon className='iconeLink' icon={faInstagram} /><br/>
                     </span>
-                </a>
+                </a> */}
 
             </div>
         </nav>

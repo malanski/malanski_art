@@ -6,34 +6,52 @@ export const Contact = () => {
         <div className="contact">
             <h2>About</h2>
             <p>
-                &ensp;&ensp;&ensp;&ensp;I have advanced English and am passionate about the areas of technology and art,
-                 my purpose is to unite them focusing on the Front-End Developer career. Area in 
-                 which I study intensively, looking for challenges and projects to improve my 
-                 technical knowledge and amplify my self-learning capacity.
+                &ensp;&ensp;&ensp;&ensp;
+                Hello,<br></br>
+                &ensp;&ensp;&ensp;&ensp;
+                I'm a freelance illustrator living in Parana, Brazil.<br></br>
+                <br></br>
+                &ensp;&ensp;&ensp;&ensp;
+                I worked for seven years as an art teacher, a position in which I developed skills in communication to exchange information and the ability to act under pressure.
+                <br></br>
+                Paintings, posters, advertisements, and book illustrations, as well as designs for jewellery, carpets, wallpaper, and theatre sets.
+                <br></br>
 
-                I worked for 7 years as an art teacher, a position in which I developed good 
-                communication to exchange information and the ability to act under pressure. 
-                At the same time, since 2011 I have been creating illustrations and drawings 
-                in traditional and digital media as a freelance designer and illustrator.
+                &ensp;&ensp;&ensp;&ensp;
+                To ensure that you receive the best and fastest response, please message or give me a call so we can talk about the creative process.
             </p>
-           <h2>Background and Skills</h2>
-           <ul>
-               <li>Bachelor's degree Drawing (Licentiate Teacher) at EMBAP UNESPAR 2010.</li>
-               <li>Traditional Paintings and Drawings.</li>
-               <li>Digital Art.</li>
-               <ul>
-                   <li>Raster Softwares: Photoshop, Krita, Clip Studio.</li>
-                   <li>Vector Softwares: Illustrator, Inkscape, Clip Studio.</li>
-               </ul>
+            <h2>Background and Skills</h2>
+            <ul>
+                <li>Bachelor's degree Drawing (Licentiate Teacher) at EMBAP UNESPAR 2010.</li>
+                <li>Traditional Paintings and Drawings.</li>
+                <li>Digital Art.</li>
+            </ul>
 
-           </ul>
-           <h2>Contat</h2>
-           <ul>
-                <li><a target='_blank' rel='noreferrer' href="https://api.whatsapp.com/send?phone=5531999349372&text=whatsapp">Phone: +55 41 9 9213 9965</a></li>
+            <br></br>
+            <ul>
+                <li>Raster Softwares: Photoshop, Krita, Clip Studio.</li>
+                <li>Vector Softwares: Illustrator, Inkscape, Clip Studio.</li>
+            </ul>
+
+            <br></br>
+
+            <ul>
+                <li>Arabesques</li>
+                <li>Decorative Exuberance</li>
+                <li>Influence of Baroque, French Rococo and Japanese prints</li>
+            </ul>
+            <h2>Contact</h2>
+            <ul>
+                <li>
+                    <a target='_blank' rel='noreferrer' href="https://api.whatsapp.com/send?phone=5541992139965&text=whatsapp">
+                        Phone: +55 41 9 9213 9965
+                    </a>
+                </li>
                 <li>email: malanskiwork@gmail.com</li>
                 <li><a href="https://www.linkedin.com/in/ulisses-malanski/">Linkedin</a></li>
 
             </ul>
+            <p>Folow Ulisses Malanski on social media</p>
 
         </div>
     )
